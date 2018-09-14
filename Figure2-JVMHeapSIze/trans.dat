@@ -1,0 +1,4 @@
+NetWork,Serialization,Deserialization,Serialized transfer
+1Gbit/s,0.43,0.17,0.21
+5Gbit/s, 0.425,0.16,0.042
+10Gbit/s,0.42,0.16,0.02

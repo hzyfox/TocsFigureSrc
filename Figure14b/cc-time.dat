@@ -1,0 +1,4 @@
+size,Spark-exec,SparkSer-exec,Deca-exec
+LJ(2GB),52,50,68
+WB(30GB),2088,1704,780
+HB(60GB),4392,3312,1524

@@ -1,0 +1,8 @@
+number,size,Spark-exec,SparkSer-exec,Deca-exec
+1,40GB,93,98,74
+2,80GB,425,672,347
+
+3,40GB,519,570,244
+4,80GB,2136,2448,462
+
+
