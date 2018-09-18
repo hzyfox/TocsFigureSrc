@@ -8,7 +8,6 @@ set style fill solid 0.4 border
 set style fill pattern 4 border -1
 set xtics nomirror
 set xtics rotate by -45
-set x2tics rotate by 45
 set xlabel "Data Size" font ",30" offset 0,0.3
  
 set ytics nomirror
@@ -26,9 +25,9 @@ set key left font ",24" at -1.6,200
 plot 'lr-cache-errbar.dat' using 2:3:xticlabels(1) title columnheader(2), \
      '' using 4:5:xticlabels(1) title columnheader(4),\
 	 ''using 6:7:xticlabels(1) title columnheader(6),\
-	 'lr-time-errbar.dat' using 1:($2/1000.0):3:x2ticlabels(1) w yerrorlines pt 7 ps 0 lw 2 lc 6 axis x2y2 title columnheader(2), \
-	 '' using 1:($4/1000.0):5:x2ticlabels(1) w yerrorlines pt 7 ps 0 lw 2 lc 7 axis x2y2 title columnheader(4),\
-	 '' using 1:($6/1000.0):7:x2ticlabels(1) w yerrorlines pt 7 ps 0 lw 2 lc 8 axis x2y2 title columnheader(6)
+	 'lr-time-errbar.dat' using 1:($3/1000.0):4:x2ticlabels(2) w yerrorlines pt 7 ps 0 lw 2 lc 6 axis x1y2 title columnheader(3), \
+	 '' using 1:($5/1000.0):6:x2ticlabels(2) w yerrorlines pt 7 ps 0 lw 2 lc 7 axis x1y2 title columnheader(5),\
+	 '' using 1:($7/1000.0):8:x2ticlabels(2) w yerrorlines pt 7 ps 0 lw 2 lc 8 axis x1y2 title columnheader(7)
 
 
 
