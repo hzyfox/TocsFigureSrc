@@ -1,0 +1,7 @@
+number,size,Spark-cache,err1,SparkSer-cache,err2,Deca-cache,err3
+1,40GB,38.9,1,38.6,1,38.6,1
+2,80GB,81.7,1,81.5,1,81.6,1
+
+3,40GB,40.5,1,40.4,1,40.4,1
+4,80GB,81.7,1,81.9,1,81.7,1
+
