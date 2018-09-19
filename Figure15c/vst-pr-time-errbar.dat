@@ -1,0 +1,5 @@
+size,Deca(origin)-Exec,err1,Deca(VST)-Exec,err2
+LJ(2GB),12,1,12,1
+WB(30GB),84,1,72,1
+HB(60GB),216,1,150,1
+

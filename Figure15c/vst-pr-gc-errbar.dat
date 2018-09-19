@@ -1,0 +1,5 @@
+number,size,Deca(origin)-GC,err1,Deca(VST)-GC,err2
+0,LJ(2GB),1,1,0.1,1
+1,WB(30GB),22.69,1,0.5,1
+2,HB(60GB),90.96,1,3.35,1
+
