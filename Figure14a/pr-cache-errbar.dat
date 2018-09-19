@@ -1,0 +1,4 @@
+size,Spark-cache,err1,SparkSer-cache,err2,Deca-cache,err3
+LJ(2GB),0.92,1,0.57,1,0.36,1
+WB(30GB),18.9,1,13.4,1,7.3,1
+HB(60GB),24.9,1,18.1,1,14.5,1
