@@ -1,5 +1,5 @@
 set terminal push
-set terminal postscript eps solid color linewidth 2 "TimesRoman" 26
+set terminal postscript eps solid color linewidth 2 "TimesNewRomanPSMT" 26
 set output 'pr-errbar.eps'
 set datafile separator ","
 set style data histogram
