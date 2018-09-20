@@ -17,8 +17,8 @@ set ytics 0,20,200
 
 set y2tics nomirror
 set y2label "Execution Time (1000s)" font ",30" offset -1.5,0
-set y2range [-0.5:16]
-set y2tics 0,2,16
+set y2range [-0.5:18]
+set y2tics 0,2,18
 
 set key left font ",24" at -1.6,200
 
