@@ -24,8 +24,8 @@ set key left  spacing 1.2 font ",18" at -0.8,230
 
 plot 'vst-pr-time-errbar.dat' using 2:3:xticlabels(1) title columnheader(2), \
      '' using 4:5:xticlabels(1) title columnheader(4),\
-	 'vst-pr-gc-errbar.dat' using 1:($3):4:xticlabels(2) w yerrorlines pt 5 ps 0 lw 2 lc 6 axis x1y2 title columnheader(3), \
-	 '' using 1:($5):6:xticlabels(2) w yerrorlines pt 7 ps 0 lw 2 lc 7 axis x1y2 title columnheader(5)
+	 'vst-pr-gc-errbar.dat' using 1:($3):4:xticlabels(2) w yerrorlines pt 5 ps 1 lw 2 lc 6 axis x1y2 title columnheader(3), \
+	 '' using 1:($5):6:xticlabels(2) w yerrorlines pt 7 ps 1 lw 2 lc 7 axis x1y2 title columnheader(5)
 
 set output
 #set terminal wxt
