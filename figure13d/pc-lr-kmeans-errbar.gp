@@ -29,8 +29,6 @@ set arrow 1 from graph 0,0 to graph 0,-1.0/6 nohead
 set arrow 2 from graph 1.0/2,0 to graph 1.0/2,-1.0/6 nohead 
 set arrow 3 from graph 1,0 to graph 1,-1.0/6 nohead 
 
-set arrow 4 from graph 1.0/4,0 to graph 1.0/4,-1.0/12 nohead 
-set arrow 5 from graph 3.0/4,0 to graph 3.0/4,-1.0/12 nohead 
 
 set key left font ",24" at -0.9,145
 
