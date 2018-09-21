@@ -13,13 +13,13 @@ set xrange [-0.5:2.5]
 
 set ytics nomirror
 set ylabel "Execution Time(s)" font ",30" offset 1.5,0
-set yrange [0 : 230]
-set ytics 0,50,230
+set yrange [0 : 250]
+set ytics 0,50,250
 
 set y2tics nomirror
 set y2label "GC Time (s)" font ",30" offset -1.5,0
-set y2range [0:230]
-set y2tics 0,50,230
+set y2range [0:250]
+set y2tics 0,50,250
 set key left  spacing 1.2 font ",18" at -0.8,230
 
 plot 'vst-cc-time-errbar.dat' using 2:3:xticlabels(1) title columnheader(2), \
