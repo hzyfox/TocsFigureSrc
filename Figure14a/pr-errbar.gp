@@ -27,8 +27,8 @@ plot 'pr-cache-errbar.dat' using 2:3:xticlabels(1) title columnheader(2), \
      '' using 4:5:xticlabels(1) title columnheader(4),\
 	 ''using 6:7:xticlabels(1) title columnheader(6),\
 	 'pr-time-errbar.dat' using 1:($3/1000.0):4:xticlabels(2) w yerrorlines pt 5 ps 0 lw 2 lc 6 axis x1y2 title columnheader(3), \
-	 '' using 1:($5/1000.0):6:xticlabels(2) w lp pt 7 ps 0 lw 2 lc 7 axis x1y2 title columnheader(5),\
-	 ''using 1:($7/1000.0):xticlabels(2) w lp pt 9 ps 0 lw 2 lc 8 axis x1y2 title columnheader(7)
+	 '' using 1:($5/1000.0):6:xticlabels(2) w yerrorlines pt 7 ps 0 lw 2 lc 7 axis x1y2 title columnheader(5),\
+	 ''using 1:($7/1000.0):8:xticlabels(2) w yerrorlines pt 9 ps 0 lw 2 lc 8 axis x1y2 title columnheader(7)
 
 set output
 #set terminal wxt
