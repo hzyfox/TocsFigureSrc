@@ -18,7 +18,7 @@ set ytics nomirror
 set ylabel "Time (s)" font ",30" offset 2,0
 set yrange[0:2.6]
 
-set key left font ",28" at 0.1,2.5
+set key left font ",28" at 0,2.5
 
 plot 'LR40Gmicro-errbar.dat' using 2:xticlabels(1) title "Compute time",\
      '' using 4:xticlabels(1) title "GC time",\
