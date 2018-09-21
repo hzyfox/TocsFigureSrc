@@ -9,7 +9,6 @@ set style fill pattern 4 border -1
 
 set xtics nomirror
 set xlabel "Data Size" font ",30" offset 0,0.3
-set xtics rotate by -45
 set ytics nomirror
 set ylabel "Cached Data (GB)" font ",30" offset 1.9,0
 set yrange [0 : 180 ]
@@ -20,7 +19,7 @@ set y2label "Execution Time (1000s)" font ",30" offset -1.5,0
 set y2range [-0.5:20]
 set y2tics 0,2,20
 
-set key left font ",24" at -1.6,180
+set key left font ",27" at -1.6,180
 
 plot 'kmeans-cache-errbar.dat' using 2:3:xticlabels(1) title columnheader(2), \
      '' using 4:5:xticlabels(1) title columnheader(4),\

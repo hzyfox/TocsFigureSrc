@@ -30,7 +30,7 @@ set arrow 2 from graph 1.0/2,0 to graph 1.0/2,-1.0/6 nohead
 set arrow 3 from graph 1,0 to graph 1,-1.0/6 nohead 
 
 
-set key left font ",24" at -0.9,145
+set key left font ",24" at -1.5,145
 
 set xtic offset 0,0.4
 set label "LR" at screen 0.3, 0.1

@@ -21,7 +21,7 @@ set y2label "Execution Time (1000s)" font ",30" offset -1.3,0
 set y2range [-0.5:6]
 set y2tics 0,1,6
 
-set key left font ",24" at -1.1,32
+set key left font ",27" at -1.1,32
 
 plot 'cc-cache-errbar.dat' using 2:3:xticlabels(1) title columnheader(2), \
      '' using 4:5:xticlabels(1) title columnheader(4),\

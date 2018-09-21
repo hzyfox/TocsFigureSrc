@@ -7,7 +7,6 @@ set style histogram errorbars gap 1
 set style fill solid 0.4 border
 set style fill pattern 4 border -1
 set xtics nomirror
-set xtics rotate by -45
 set xlabel "Data Size" font ",30" offset 0,0.3
  
 set ytics nomirror
@@ -20,7 +19,7 @@ set y2label "Execution Time (1000s)" font ",30" offset -1.5,0
 set y2range [-0.5:18]
 set y2tics 0,2,18
 
-set key left font ",24" at -1.6,200
+set key left font ",27" at -1.6,200
 
 plot 'lr-cache-errbar.dat' using 2:3:xticlabels(1) title columnheader(2), \
      '' using 4:5:xticlabels(1) title columnheader(4),\

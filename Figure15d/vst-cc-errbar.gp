@@ -20,7 +20,7 @@ set y2tics nomirror
 set y2label "GC Time (s)" font ",30" offset -1.5,0
 set y2range [0:250]
 set y2tics 0,50,250
-set key left  spacing 1.2 font ",18" at -0.8,230
+set key left  spacing 1.2 font ",18" at -0.8,250
 
 plot 'vst-cc-time-errbar.dat' using 2:3:xticlabels(1) title columnheader(2), \
      '' using 4:5:xticlabels(1) title columnheader(4),\
